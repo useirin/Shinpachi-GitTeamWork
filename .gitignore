@@ -1,0 +1,5 @@
+# 忽略所有 .map 檔案
+*.map
+
+
+.DS_Store
