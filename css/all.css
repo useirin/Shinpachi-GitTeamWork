@@ -152,8 +152,31 @@ body {
 .banner {
   padding: 30px;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=all.css.map */
+
+.gintamo,.gin{
+  flex: 1;
+  min-width: 300px;
+}
+.gintamo>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.gin{
+  background-image: url('https://news-cdn.para-daily.com/wp-content/uploads/2023/12/01152203/D6.webp');
+  flex-direction: column;
+  align-content: flex-end;
+  background-size: cover;
+}
+.gin h2{
+  font-size: 20px;
+  color: white;
+  padding-left: 10px;
+}
 
 .footer{
   font-size: 24px;
