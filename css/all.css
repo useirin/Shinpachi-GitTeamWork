@@ -142,4 +142,10 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+h1{
+  color: rgb(0, 0, 97);
+  text-align: center;
+  padding: 20px;
+}
 /*# sourceMappingURL=all.css.map */
