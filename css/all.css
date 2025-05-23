@@ -154,3 +154,12 @@ body {
   display: flex;
   justify-content: center;
 }/*# sourceMappingURL=all.css.map */
+
+.footer{
+  font-size: 24px;
+  text-align: center;
+  margin: 15px auto;
+}
+.footer:hover{
+  transform: scale(1.3);
+}
